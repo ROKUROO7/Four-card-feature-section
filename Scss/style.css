@@ -119,7 +119,11 @@ main #calculator {
 @media screen and (min-width: 1200px) {
   header {
     max-width: 34rem;
-    min-height: 30vh;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   main section {
     max-width: 21rem;
