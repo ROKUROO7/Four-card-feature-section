@@ -84,7 +84,7 @@ main #calculator {
     max-width: 34.375rem;
   }
   header h1, header h2 {
-    font-size: clamp(2.25rem, 2.078rem + 0.345vw, 2.388rem);
+    font-size: 2.25rem;
   }
   main {
     max-height: -moz-fit-content;
@@ -106,19 +106,21 @@ main #calculator {
     grid-row: 1/span 2;
   }
   main #karma {
-    grid-column: 3;
-    grid-row: 2/span 2;
-  }
-  main #calculator {
     grid-column: 2;
     grid-row: 3/span 2;
+  }
+  main #calculator {
+    grid-column: 3;
+    grid-row: 2/span 2;
   }
 }
 @media screen and (min-width: 1200px) {
   header {
-    max-width: 35rem;
+    max-width: 34rem;
+    padding-top: 5;
+    padding-left: 5;
   }
   main section {
-    max-width: 23rem;
+    max-width: 22rem;
   }
 }/*# sourceMappingURL=style.css.map */
