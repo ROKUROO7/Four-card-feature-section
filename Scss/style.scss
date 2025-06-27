@@ -35,7 +35,6 @@ $Font-Weights: (
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background-color: map-get($Neutral-Colors,Color_White)
 }
 
 header {
@@ -163,11 +162,10 @@ main {
 
   header {
     max-width: 34rem;
-    padding-top: 5;
-    padding-left: 5;
+    min-height: 30vh;
   }
 
   main section {
-    max-width: 22rem;
+    max-width: 21rem;
   }
 }
