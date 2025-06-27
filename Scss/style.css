@@ -8,6 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  background-color: #fafafa;
 }
 
 header {
@@ -27,6 +28,7 @@ header h2 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 1rem;
+  color: #454a5e;
 }
 header p {
   font-size: 0.938rem;
@@ -52,6 +54,7 @@ main section {
   border-radius: 0.35rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: hsl(0, 0%, 100%);
+  color: #454a5e;
 }
 main section h2 {
   font-size: clamp(1.125rem, 1.036rem + 0.238vw, 1.25rem);
